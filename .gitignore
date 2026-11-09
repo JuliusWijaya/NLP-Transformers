@@ -1,0 +1,31 @@
+# --- Virtual environment ---
+env/
+venv/
+.venv/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Visual Studio ---
+.vs/
+*.suo
+*.user
+*.pyproj.user
+bin/
+obj/
+
+# --- Rahasia / konfigurasi lokal ---
+.env
+*.env
+
+# --- Model dan cache Hugging Face (jika disimpan di dalam project) ---
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+.cache/
+models/
